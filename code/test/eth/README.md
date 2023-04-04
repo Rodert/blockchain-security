@@ -1,3 +1,6 @@
+[toc]
+
+
 # input
 
 > 通过解析合约创建时的交易 input，判断是否是 ERC 协议标准。
@@ -112,3 +115,14 @@ curl --request POST \
 }
 '
 ```
+
+
+## 批量获取 ERC20 代币余额
+
+代码参考：
+https://github.com/af913337456/eth-relay
+
+pdf参考：
+http://www.tup.com.cn/upload/books/yz/082466-01.pdf
+
+
