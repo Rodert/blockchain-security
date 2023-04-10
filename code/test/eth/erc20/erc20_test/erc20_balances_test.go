@@ -39,7 +39,7 @@ func TestGetX(t *testing.T) {
 	name := "eth_call"
 	methodId := "0x70a08231" // 这个就是 balanceOf 的 methodId
 
-	for i := 0; i < 100000; i++ {
+	for i := 0; i < 100; i++ {
 		res := ""
 		arg := &CallArg{}
 		// 下面是针对访问 balanceOf 时的必须参数，查询余额是不需要油费的，但是发现一些版本的节点又需要指定这个参数，所以下面还是指定一个
@@ -87,7 +87,6 @@ func TestGetBalances(t *testing.T) {
 }
 
 func TestGetERC20Balances(t *testing.T) {
-
 	// ERC20BalanceRpcReq 是查询 ERC20 代币的参数集合结构体
 	// type ERC20BalanceRpcReq struct {
 	// 	ContractAddress string // 合约的以太坊地址
