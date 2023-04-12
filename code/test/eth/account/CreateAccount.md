@@ -9,6 +9,7 @@ brew install ethereum
 geth account new //创建账号，会提示输入密码
 ```
 
+> KeystoreToPrivateKeyAndAddress 是创建账号的脚本，直接执行
 
 创建账号后，反解出私钥
 
