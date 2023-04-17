@@ -12,7 +12,7 @@ func InputAnalysis() {
 	data := []byte("hello")
 
 	/* ERC20 */
-	// data = []byte("totalSupply()")
+	data = []byte("totalSupply()")
 	// data = []byte("balanceOf(address)")
 	// data = []byte("transfer(address,uint256)")
 	// data = []byte("allowance(address,address)")
