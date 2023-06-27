@@ -3,6 +3,7 @@ package tracetest
 import (
 	"encoding/json"
 	"fmt"
+	"test/eth/trace"
 	"testing"
 )
 
@@ -299,6 +300,11 @@ func TestTxn(t *testing.T) {
 	result := UtilsFun{}
 	_ = json.Unmarshal([]byte(debugTraceTransactionResultJson), &result)
 	fmt.Printf("%+v\n", result)
+}
+
+func TestTxnAlchemy(t *testing.T) {
+	it := trace.GetInterTxn("0x629d5cd31dd77b325e031358cfa521f4f167dc09e1fa8cdf978f8e2af884e2aa")
+	fmt.Printf("\n%+v\n", it)
 }
 
 type UtilsFun struct {
