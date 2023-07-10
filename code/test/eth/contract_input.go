@@ -37,4 +37,8 @@ func InputAnalysis() {
 	hash := crypto.Keccak256Hash(data)
 	fmt.Println(hash.Hex()) // 0x1c8aff950685c2ed4bc3174f3472287b56d9517b9c948127319a09a7a36deac8
 
+	fmt.Println(crypto.Keccak256Hash([]byte("addLiquidityETH(address,uint256,uint256,uint256,address,uint256)")).Hex()) // Uniswap addLiquidityETH
+
+	fmt.Println(crypto.Keccak256Hash([]byte("addLiquidity(address,address,uint256,uint256,uint256,uint256,address,uint256)")).Hex()) // Uniswap addLiquidity
+
 }
