@@ -1,3 +1,12 @@
+### ⚠️注意： 迁移到 -->> [https://github.com/Rodert/WSY-Solidity](https://github.com/Rodert/WSY-Solidity)
+
+---
+
+---
+
+
+
+
 所有内容不构成投资建议，完全基于代码学习和技术分析
 
 # blockchain-security
